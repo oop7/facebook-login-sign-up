@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  text-decoration: none;
+  outline: none;
+}
+body {
+  background-color: hsl(216, 20%, 95%);
+}
+
+.form1 {
+  background-color: white;
+  position: absolute;
+  width: 420px;
+  height: 330px;
+  padding: 10px 5px 20px 5px;
+  margin: -10vh 1000px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px -7px;
+}
+.form1 input[type="text"],
+input[type="password"] {
+  display: block;
+  background-color: white;
+  margin: auto;
+  border: 1.5px solid rgb(200, 200, 200);
+  width: 200px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.form1 .btn10 {
+  border: none;
+  background-color: rgb(22, 111, 229);
+  color: white;
+  margin: auto;
+  width: 283px;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  bottom: 15px;
+}
+.f-pws {
+  position: absolute;
+  top: 210px;
+  width: 180px;
+  height: 270px;
+  border-radius: 5px;
+  margin: 0px 150px;
+  color: rgb(24, 119, 242);
+}
+.line {
+  border-bottom: 1px solid #222;
+  opacity: 0.2;
+}
+.btn2 {
+  width: 180px;
+  font-size: 12px;
+  background-color: rgb(54, 164, 32);
+  text-align: center;
+  border: none;
+  color: white;
+  margin: auto;
+  display: block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  font-weight: bold;
+  cursor: pointer;
+  font-weight: 900;
+}
+.f-container {
+  width: 350px;
+  margin-left: 300px;
+  margin-top: 30vh;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.f-container img {
+  width: 300px;
+}
+.h16 {
+  margin: 0px 30px;
+}
