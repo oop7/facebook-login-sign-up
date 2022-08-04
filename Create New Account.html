@@ -8,39 +8,47 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <h1>create a account</h1>
+    
     <!-- form -->
-    <form action="login.html" method="post">
-      <label for="">First Name :</label>
+    <form action="login.html" method="post" class="form2">
+      <h1 class="h30">create a new account</h1>
+      <p class="p30">It's quick and easy.</p>
       <input type="text" name="First Name" placeholder="First Name" />
-      <label for="">Family Name :</label>
+      <br>
       <input type="text" name="Family Name" placeholder="Family Name" />
-      <br />
-      <br />
-      <label for="">Email :</label>
-      <input type="Email" name="Email" placeholder="Enter Email" />
-      <label for="">Phone Number :</label>
-      <input type="tel" name="Phone Number" placeholder="Phone Number" />
-      <br />
-      <br />
-      <label for="">Password :</label>
+      <br>
+      <input type="Email" name="Email" placeholder="Enter Email or phone number" />
+      <br>
       <input type="Password" name="Password" placeholder="Password" />
-      <labe for="">Date of Birth :</labe>
-      <input type="date" />
+      <br>
+      <input type="date"/>
+      <br>
+      <div class="div2">
+        <div class="female">
+        <label class="female0" for="female">female</label>
+        <input class="female1" type="radio" name="gender" value="female" >
+        </div>
+        <div class="div3">
+        <label class="male1" for="male">male</label>
+        <input class="male2" type="radio" name="gender" value="male" >
+        </div>
+        <div class="custom">
+        <label class="custom0" for="custom">custom</label>
+        <input type="radio" name="gender" value="custom" >
+        </div>
+      </div>
       <br />
-      <br />
-      <label for="">gender :</label>
-      <label for="">Male</label>
-      <input type="radio" name="gender" value="Male" />
-      <label for="">Female</label>
-      <input type="radio" name="gender" value="Female" />
-      <label for="">Custom</label>
-      <input type="radio" name="gender" value="Custom" />
-      <br />
-      <br />
-      <input type="submit" name="continue" value="continue" />
+      <p class="p60">People who use our service may have uploaded your contact information to Facebook. Learn more.
+<br>
+        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
+      <input type="submit" name="continue" value="Sing Up" class="btn15" />
+      <br>
+      <br>
+      <br>
+      <a href="login.html" class="f-ac">Already have an account?</a>
     </form>
-
+    <div class="c-container">
+      <img src="media/Capture.PNG" alt="logo" />  
     <script src="main.js"></script>
   </body>
 </html>

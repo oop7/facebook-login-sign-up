@@ -50,7 +50,6 @@ input[type="password"] {
   position: absolute;
   top: 210px;
   width: 180px;
-  height: 270px;
   border-radius: 5px;
   margin: 0px 150px;
   color: rgb(24, 119, 242);
@@ -60,16 +59,19 @@ input[type="password"] {
   opacity: 0.2;
 }
 .btn2 {
-  width: 180px;
+  position: absolute;
+  right: 540px;
+  bottom: 460px;
+  width: 283px;
   font-size: 12px;
   background-color: rgb(54, 164, 32);
   text-align: center;
   border: none;
   color: white;
-  margin: auto;
+  margin: 20px;
   display: block;
   border-radius: 5px;
-  padding: 10px 20px;
+  padding: 20px 0;
   font-weight: bold;
   cursor: pointer;
   font-weight: 900;
@@ -85,4 +87,114 @@ input[type="password"] {
 }
 .h16 {
   margin: 0px 30px;
+}
+/* --------------------------------------------------------------------------Create New Account---------------------------------------------------------------------------------- */
+.form2 {
+  background-color: white;
+  position: absolute;
+  width: 502px;
+  height: 650px;
+  padding: 10px 5px 20px 5px;
+  margin: 10vh 680px;
+  border-radius: 10px;
+  box-shadow: 5px 5px 6px -7px;
+}
+.form2 input[type="text"],
+input[type="password"],
+[type="Email"],
+[type="tel"],
+[type="radio"],
+[type="radio"],
+[type="date"] {
+  display: block;
+  background-color: white;
+  margin: auto;
+  border: 1.5px solid rgb(200, 200, 200);
+  width: 200px;
+  padding: 10px 40px;
+  border-radius: 5px;
+  text-align: center;
+  color: black;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-size: 15px;
+}
+.btn15 {
+  border: none;
+  background-color: rgb(17, 159, 22);
+  color: white;
+  margin: auto;
+  width: 250px;
+  display: block;
+  border-radius: 10px;
+  padding: 10px 0;
+  font-weight: bold;
+  cursor: pointer;
+  position: relative;
+  top: 30px;
+  font-size: 1rem;
+}
+.f-ac {
+  width: 180px;
+  border-radius: 5px;
+  margin: 0px 160px;
+  color: rgb(24, 119, 242);
+}
+.c-container img {
+  width: 300px;
+  margin: 1vh 780px;
+}
+.h30 {
+  text-align: center;
+  font-size: 2rem;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.p30 {
+  text-align: center;
+  font-size: 1.2rem;
+  margin: 10px 0;
+}
+.p60 {
+  font-weight: lighter;
+  font-size: small;
+}
+.female {
+  border: 1.5px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+}
+.female0 {
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+[type="radio"] {
+  accent-color: blue;
+}
+.div2 {
+  display: flex;
+}
+.div3 {
+  border: 1.5px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+  margin: 0px 20px;
+}
+.male1 {
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
+}
+.custom {
+  border: 1.5px solid rgb(200, 200, 200);
+  border-radius: 5px;
+  width: 120px;
+  height: 35px;
+  margin: 0px 20px;
+}
+.custom0 {
+  align-items: center;
+  font-weight: bolder;
+  font-size: 1.1rem;
 }
