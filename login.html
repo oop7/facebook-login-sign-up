@@ -1,40 +1,40 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>facebook</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/media/facebook.ico">
-  </head>
 
-  <body>
-    <form action="https://facebook.com" class="form1" method="post">
-      <input type="text" placeholder="Email or phone number" />
-      <br />
-      <br />
-      <input type="password" placeholder="Enter you password" />
-      <br />
-      <br />
-      <button class="btn10" type="submit">login</button>
-      <br />
-      <br />
-      <a href="#" class="f-pws">Forget Password</a>
-      <div class="line"></div>
-      <br />
-    </form>
-    <form action="Create New Account.html" method="post">
-      <div>
-        <a href="Create New Account.html"
-          ><button class="btn2">Create New Account</button>
-        </a>
-      </div>
-    </form>
-    <div class="f-container">
-      <img src="media/Capture.PNG" alt="logo" />
-      <h1 class="h16">Recent logins</h1>
-    </div>
-    <script src="main.js"></script>
-  </body>
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>facebook</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="/media/facebook.ico">
+</head>
+
+<body>
+  <form action="https://facebook.com" class="form1" method="post" onsubmit="return validate()">
+    <div id="error"></div>
+    <input type="text" placeholder="Email or phone number" id="email"/>
+    <br />
+    <br />
+    <input type="password" placeholder="Enter you password" id="password"/>
+    <br />
+    <br />
+    <button class="btn10" type="submit">login</button>
+    <br />
+    <br />
+    <a href="#" class="f-pws">Forget Password</a>
+    <div class="line"></div>
+    <br />
+  </form>
+  <div>
+    <a href="Create New Account.html"><button class="btn2">Create New Account</button>
+    </a>
+  </div>
+  <div class="f-container">
+    <img src="media/Capture.PNG" alt="logo" />
+    <h1 class="h16">Recent logins</h1>
+  </div>
+  <script src="login.js"></script>
+</body>
+
 </html>

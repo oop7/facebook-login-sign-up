@@ -1,55 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>facebook</title>
-    <link rel="stylesheet" href="style.css" />
-    <link rel="icon" href="/media/facebook.ico">
-  </head>
-  <body>
-    
-    <!-- form -->
-    <form action="login.html" method="post" class="form2">
-      <h1 class="h30">create a new account</h1>
-      <p class="p30">It's quick and easy.</p>
-      <input type="text" name="First Name" placeholder="First Name" />
-      <br>
-      <input type="text" name="Family Name" placeholder="Family Name" />
-      <br>
-      <input type="Email" name="Email" placeholder="Enter Email or phone number" />
-      <br>
-      <input type="Password" name="Password" placeholder="Password" />
-      <br>
-      <input type="date"/>
-      <br>
-      <div class="div2">
-        <div class="female">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>facebook</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="media/facebook.ico">
+</head>
+
+<body>
+
+  <!-- form -->
+  <form action="login.html" method="post" class="form2" onsubmit="return formValidatf()">
+    <h1 class="h30">create a new account</h1>
+    <p class="p30">It's quick and easy.</p>
+    <div id="error"></div>
+    <input type="text" name="First Name" placeholder="First Name" id="firstName"/>
+    <br>
+    <input type="text" name="Family Name" placeholder="Family Name" id="secondName"/>
+    <br>
+    <input type="Email" name="Email" placeholder="Enter Email or phone number" id="email" />
+    <br>
+    <input type="Password" name="Password" placeholder="Password" id="password"/>
+    <br>
+    <input type="date" />
+    <br>
+    <div class="div2">
+      <div class="female">
         <label class="female0" for="female">female</label>
-        <input class="female1" type="radio" name="gender" value="female" >
-        </div>
-        <div class="div3">
-        <label class="male1" for="male">male</label>
-        <input class="male2" type="radio" name="gender" value="male" >
-        </div>
-        <div class="custom">
-        <label class="custom0" for="custom">custom</label>
-        <input type="radio" name="gender" value="custom" >
-        </div>
+        <input class="female1" type="radio" name="gender" value="female">
       </div>
-      <br />
-      <p class="p60">People who use our service may have uploaded your contact information to Facebook. Learn more.
-<br>
-        By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications from us and can opt out at any time.</p>
-      <input type="submit" name="continue" value="Sing Up" class="btn15" />
+      <div class="div3">
+        <label class="male1" for="male">male</label>
+        <input class="male2" type="radio" name="gender" value="male">
+      </div>
+      <div class="custom">
+        <label class="custom0" for="custom">custom</label>
+        <input type="radio" name="gender" value="custom">
+      </div>
+    </div>
+    <br />
+    <p class="p60">People who use our service may have uploaded your contact information to Facebook. Learn more.
       <br>
-      <br>
-      <br>
-      <a href="login.html" class="f-ac">Already have an account?</a>
-    </form>
-    <div class="c-container">
-      <img src="media/Capture.PNG" alt="logo" />  
+      By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS notifications
+      from us and can opt out at any time.
+    </p>
+    <input type="submit" name="continue" value="Sing Up" class="btn15" />
+    <br>
+    <br>
+    <br>
+    <a href="login.html" class="f-ac">Already have an account?</a>
+  </form>
+  <div class="c-container">
+    <img src="media/Capture.PNG" alt="logo" />
     <script src="main.js"></script>
-  </body>
+</body>
+
 </html>
